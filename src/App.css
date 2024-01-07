@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+/* YourTodoListContainer.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right bottom, #e1b382, #c89666 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #12343b;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+}
+
+/* You can customize the styles based on your preferences */
+
+
+.task-completed {
+  text-decoration: line-through;
+}
+
+/* Add your CSS styles here */
+
+.input_field {
+  margin: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* YourComponent.css */
+
+.list_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.filter_button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #f39136;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter_button:hover {
+  background-color: #2980b9;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.task:hover {
+  background-color: #d2d7d3;
+}
+
+/* YourTaskComponent.css */
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.task-container:hover {
+  background-color: #d2d7d3;
+}
+
+.input_tasks {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.checky {
+  margin-right: 10px;
+}
+
+.task-description {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.task-buttons button {
+  padding: 8px 12px;
+  background-color: #1D4851;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.task-buttons button:hover {
+  background-color: #2980b9;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+form input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 8px 12px;
+  background-color: #f39136;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+form button:hover {
+  background-color: #c89666;
+}
+
+
